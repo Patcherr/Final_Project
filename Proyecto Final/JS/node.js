@@ -1,6 +1,7 @@
 function login() {
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
+    const login = document.getElementById('login');
 
     // Obtener los usuarios registrados del almacenamiento local
     var usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
@@ -12,7 +13,7 @@ function login() {
 
     if (usuarioEncontrado) {
       // Redireccionar a la otra página con los datos del usuario
-      window.location.href = 'interfase.html';
+      login.submit()
     } else {
       alert('Credenciales inválidas');
     }
