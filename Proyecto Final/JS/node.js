@@ -13,7 +13,7 @@ function login() {
 
     if (usuarioEncontrado) {
       // Redireccionar a la otra página con los datos del usuario
-      login.submit()
+      login.submit()  
     } else {
       alert('Credenciales inválidas');
     }
