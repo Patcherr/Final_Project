@@ -12,7 +12,7 @@ function login() {
 
     if (usuarioEncontrado) {
       // Redireccionar a la otra página con los datos del usuario
-      window.location.href = 'data.html';
+      window.location.href = 'interfase.html';
     } else {
       alert('Credenciales inválidas');
     }
