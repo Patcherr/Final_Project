@@ -1,9 +1,7 @@
 window.addEventListener('DOMContentLoaded', function () {
-
-  const nombre = document.getElementById('nombre');
   const email = document.getElementById('email');
   const password = document.getElementById('password');
-  const valid = document.getElementById('valid');
+  
   const returnLogin = document.getElementById('return');
   const registerLogin = document.getElementById('registerLogin');
 
@@ -27,7 +25,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
     }
     // Mostrar un mensaje de éxito
-    alert('Registro exitoso. ¡Ahora puedes iniciar sesión!');
+    
 
     // Redireccionar a la página de inicio de sesión después del registro
     registerLogin.submit()
