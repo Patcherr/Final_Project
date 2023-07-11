@@ -1,11 +1,11 @@
 window.addEventListener('DOMContentLoaded', function(){
-    const valid = document.getElementById('valid');
-    const nombre = document.getElementById('nombre');
+    const validName = document.getElementById('valid');
+    const name = document.getElementById('nombre');
 
     valid.addEventListener('click', function(event){
         event.preventDefault();
 
-        if(nombre.value == ''){
+        if(name.value == ''){
             alert('Porfavor ingrese un nombre valido.');
         }
 
